@@ -46,7 +46,7 @@ class Provider extends AbstractProvider implements ProviderInterface
         $redirectUrl = $this->redirectUrl;
 
         return <<<EOD
-<script>
+<script type="application/javascript">
     var _TWidgetLogin = {
         init: function(authUrl, bot_id, params, lang, redirectUrl) {
             _TWidgetLogin.authUrl = authUrl;
