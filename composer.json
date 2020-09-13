@@ -1,5 +1,5 @@
 {
-    "name": "max13/telegram-socialite",
+    "name": "xtodx/telegram-socialite",
     "description": "Telegram provider for Laravel Socialite",
     "type": "library",
     "keywords": [
@@ -13,27 +13,32 @@
         {
             "name": "Adnan RIHAN",
             "email": "adnan@rihan.fr"
+        },
+        
+        {
+            "name": "Anton Kovalenko",
+            "email": "tonylovepony@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/max13/telegram-socialite/issues",
-        "source": "https://github.com/max13/telegram-socialite"
+        "issues": "https://github.com/xtodx/TelegramSocialite/issues",
+        "source": "https://github.com/xtodx/TelegramSocialite"
     },
     "autoload": {
         "psr-4": {
-            "Max13\\TelegramSocialite\\": "src/"
+            "Xtodx\\TelegramSocialite\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Max13\\TelegramSocialite\\ServiceProvider"
+                "Xtodx\\TelegramSocialite\\ServiceProvider"
             ]
         }
     },
     "require": {
         "illuminate/support": "~5.7.0|~5.8.0|^6.0|^7.0",
-        "laravel/socialite": "^4.0"
+        "laravel/socialite": "^5.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
