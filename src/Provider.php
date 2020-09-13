@@ -1,6 +1,6 @@
 <?php
 
-namespace Max13\TelegramSocialite;
+namespace Xtodx\TelegramSocialite;
 
 use Illuminate\Support\Facades\Validator;
 use InvalidArgumentException;
